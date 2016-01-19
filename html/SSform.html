@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+
+		<title>SurgeSimple Sign-Up</title>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'> -->
+
+		<link href="http://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700italic,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300" rel="stylesheet" type="text/css">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+
+	</head>
+	<body>
+		<header>
+				<nav>
+					<ul><img src="../images/logo.png" class="logo" height="90">
+						<li><a href="../images/www.surgesimple.com.html">HOME</a></li>
+						<li><a href="../images/www.surgesimple.com.html">HOW IT WORKS</a></li>
+						<li><a href="../images/www.surgesimple.com.html">FEATURES</a></li>
+						<li><a href="../images/www.surgesimple.com.html">CHARGE PROVIDERS</a></li>
+						<li><a href="../images/www.surgesimple.com.html">FAQS</a></li>
+						<li><a href="../images/www.surgesimple.com.html">GET THE APP</a></li>
+						<li><a href="../images/www.surgesimple.com.html">SIGN IN/SIGN UP</a></li>
+					</ul>
+				</nav>
+			<div class="container">
+			<img src="../images/electric-car.jpg" class="EV" height="500" width="100%">
+			</div>
+		</header>
+		<section>
+			<div id="registration">
+                <div class="section_content">
+				<form id="form" name="form" method="post">
+					<input type="hidden" name="form" value="form">
+
+			<h2>Sign Up</h2>
+
+			<div class="row">							
+				<label>First Name<span class="required">*</span>
+				</label></div>
+				<div><input id="form:firstName" type="text" name="form:firstName" class="fieldInput" maxlength="30">
+			</div>					
+				
+			<div class="row">							
+				<label>Last Name<span class="required">*</span>
+				</label></div>
+				<div><input id="form:lastName" type="text" name="form:lastName" class="fieldInput" maxlength="30">
+			</div>
+
+			<div class="row">							
+				<label>User Name<span class="required">*</span>
+				</label></div>
+				<div><input id="form:userName" type="text" name="form:userName" class="fieldInput" maxlength="30">
+			</div>
+											
+			<div class="row">							
+				<label>Email<span class="required">*(Corporate emails required for corporate accounts)</span>
+				</label></div>
+				<div><input id="form:emailAddress" type="text" name="form:emailAddress" autocomplete="off" class="fieldInput" maxlength="50">
+			</div>
+
+			<div class="row">							
+				<label>Company Name</label></div>
+				<div><input id="form:companyName" type="text" name="form:companyName" class="fieldInput" maxlength="30" placeholder="Required for corporate accounts">
+			</div>
+											
+			<div class="row">							
+				<label>Password<span class="required">*</span>
+				</label></div>
+				<div><input id="form:password" name="form:password" type="password" class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all" autocomplete="off" maxlength="30" aria-required="true" role="textbox" aria-disabled="false" aria-readonly="false">
+			</div>
+																
+			<div class="row">							
+				<label>Vehicle Model<span class="required">*</span>
+				</label></div>
+				<div><input id="form:model" type="text" name="form:model" class="fieldInput" maxlength="10">
+			</div>
+
+			<div class="row">							
+				<label>Year<span class="required">*</span>
+				</label></div>
+				<div><input id="form:year" type="text" name="form:address1" class="fieldInput" maxlength="200">
+			</div>
+
+			<div class="row">							
+				<label>Vehicle License Plate Number<span class="required">*</span></label></div>
+				<div><input id="form:license" type="text" name="form:license" class="fieldInput" maxlength="10">
+			</div>
+												
+			<div class="row">
+				<label>City<span class="required">*</span>
+				</label></div>
+				<div><input id="form:city" type="text" name="form:city" class="fieldInput" maxlength="30">
+			</div>
+			
+			<div class="row">
+				<label>State<span class="required">*</span>
+				</label></div>
+				<div><input id="form:state" type="text" name="form:state" class="fieldInput" maxlength="30">
+			</div>							
+												
+			<div class="row">							
+				<label>Mobile<span class="required">*</span>
+				</label></div>
+				<div><input id="form:mobile" name="form:mobile" type="text" maxlength="20" aria-required="true" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all fieldInput" role="textbox" aria-disabled="false" aria-readonly="false" placeholder="Without country code">
+			</div>
+					
+			<div class="row">							
+				<label>Push Notification Method</label></div>
+				<div><select id="form:pushmethod" type="text" name="form:pushmethod" class="submit-btn">
+				<option value="Select"> Please Select </option>
+				<option value="Text"> Text </option>
+				<option value="Email"> Email </option>
+				<option value="Both"> Both text and email </option>
+				</select>
+			</div>
+
+			<div class="row">							
+				<label>Reminder Timeframe</label></div>
+				<div><select id="form:reminder" class="submit-btn" type="text" name="form:reminder"> 
+				<option value="Select"> Please Select </option>
+				<option value="10Minutes"> 10 Minutes </option>
+				<option value="15Minutes"> 15 Minutes </option>
+				<option value="30Minutes"> 30 Minutes </option>
+				</select>
+			</div>
+
+			<div class="row">							
+				<label></label>
+				<div class="input text">
+			</div>
+			</div>
+											
+			<div class="submit">
+				<span class="privacy_terms">By clicking SAVE, you agree to our  <a href="../html/Terms.html" target="_blank">Terms</a> and <a href="../html/Privacy.html"target="_blank">Privacy Conditions</a>.</span></div>
+
+			<div><input id="form:Submit" type="submit" name="form:Submit" value="SAVE" class="formBtn">
+				</div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-3114031420174760652:-4622167903094136711" autocomplete="off">
+</form>
+				</div>
+
+			</div>			
+		</section>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="JS/main.js"></script>	
+	</body>
+</html>

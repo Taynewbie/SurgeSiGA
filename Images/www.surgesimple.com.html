@@ -1,0 +1,559 @@
+<link rel="stylesheet" href="http://www.surgesimple.com/wp-content/plugins/webservices/css/materialize.min.css"><script src="http://www.surgesimple.com/wp-content/plugins/webservices/js/bootstrap.min.js"></script><script src="http://www.surgesimple.com/wp-content/plugins/webservices/js/jquery.flot.js"></script><script src="http://www.surgesimple.com/wp-content/plugins/webservices/js/jquery.flot.resize.js"></script><script src="http://www.surgesimple.com/wp-content/plugins/webservices/js/jquery.flot.pie.js"></script><!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.surgesimple.com/xmlrpc.php">
+	<link href="http://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700italic,700" rel="stylesheet" type="text/css" />
+
+
+<!--[if lt IE 9]>
+	<script src="http://www.surgesimple.com/wp-content/themes/surgesimple/js/html5shiv.js"></script>
+<![endif]-->
+
+<title>Surge Simple &#8211; Charging on the Go</title>
+<link rel="alternate" type="application/rss+xml" title="Surge Simple &raquo; Feed" href="http://www.surgesimple.com/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Surge Simple &raquo; Comments Feed" href="http://www.surgesimple.com/index.php/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.surgesimple.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://www.surgesimple.com/wp-includes/css/dashicons.min.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='http://www.surgesimple.com/wp-includes/css/jquery-ui-dialog.min.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.surgesimple.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.1.3' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='accesspress-parallax-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C500%2C700%7COxygen%3A400%2C300%2C700&#038;ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-parallax-font-awesome-css'  href='http://www.surgesimple.com/wp-content/themes/surgesimple/css/font-awesome.min.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-parallax-bx-slider-css'  href='http://www.surgesimple.com/wp-content/themes/surgesimple/css/jquery.bxslider.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-parallax-nivo-lightbox-css'  href='http://www.surgesimple.com/wp-content/themes/surgesimple/css/nivo-lightbox.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-parallax-animate-css'  href='http://www.surgesimple.com/wp-content/themes/surgesimple/css/animate.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-parallax-style-css'  href='http://www.surgesimple.com/wp-content/themes/surgesimple/style.css?ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-parallax-responsive-css'  href='http://www.surgesimple.com/wp-content/themes/surgesimple/css/responsive.css?ver=4.4.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.1.3'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.1.3'></script>
+<link rel='https://api.w.org/' href='http://www.surgesimple.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.surgesimple.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.surgesimple.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.1" />
+<link type='image/png' rel='icon' href='http://www.surgesimple.com/wp-content/uploads/2016/01/login-logo.png'/>
+<style type='text/css' media='all'>#section-4{ background:url() no-repeat scroll top left ; background-size:auto; color:}
+#section-4 .overlay { background:url(http://www.surgesimple.com/wp-content/themes/surgesimple/images/overlay0.png);}
+#section-6{ background:url() no-repeat scroll top left ; background-size:auto; color:}
+#section-6 .overlay { background:url(http://www.surgesimple.com/wp-content/themes/surgesimple/images/overlay0.png);}
+#section-8{ background:url() no-repeat scroll top left ; background-size:auto; color:}
+#section-8 .overlay { background:url(http://www.surgesimple.com/wp-content/themes/surgesimple/images/overlay0.png);}
+#section-12{ background:url() no-repeat scroll top left ; background-size:auto; color:}
+#section-12 .overlay { background:url(http://www.surgesimple.com/wp-content/themes/surgesimple/images/overlay0.png);}
+#section-14{ background:url() no-repeat scroll top left ; background-size:auto; color:}
+#section-14 .overlay { background:url(http://www.surgesimple.com/wp-content/themes/surgesimple/images/overlay0.png);}
+</style>
+<script>
+    jQuery(document).ready(function($){
+       wow = new WOW(
+        {
+          offset:  200 
+        }
+      )
+      wow.init();
+    });
+    </script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.surgesimple.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.surgesimple.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.1.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="http://www.surgesimple.com/wp-content/uploads/2016/01/login-logo.png" sizes="32x32" />
+<link rel="icon" href="http://www.surgesimple.com/wp-content/uploads/2016/01/login-logo.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://www.surgesimple.com/wp-content/uploads/2016/01/login-logo.png" />
+<meta name="msapplication-TileImage" content="http://www.surgesimple.com/wp-content/uploads/2016/01/login-logo.png" />
+
+<!-- BEGIN GADWP v4.9.1.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-72269617-1', 'auto');
+  ga('send', 'pageview', {'anonymizeIp': true});</script>
+
+<!-- END GADWP Universal Tracking -->
+
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/modernizr.js" type="text/javascript"></script>
+<script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/jquery-latest.js"></script>
+<script type="text/javascript" src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/default.js"></script>
+<script type="text/javascript" src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/validation.js"></script>
+      
+<link  href="http://www.surgesimple.com/wp-content/themes/surgesimple/style/style.css" type="text/css" rel="stylesheet">
+<link  href="http://www.surgesimple.com/wp-content/themes/surgesimple/style/rotating-style.css" type="text/css" rel="stylesheet">
+
+<link  href="http://www.surgesimple.com/wp-content/themes/surgesimple/forms/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="home blog parallax-on wpb-js-composer js-comp-ver-4.8.1 vc_responsive">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="logo-side">
+		<div class="mid-content clearfix">
+		<div id="site-logo">
+				<a href="http://www.surgesimple.com/" rel="home">
+			<img src="http://52.35.141.149/wp-content/uploads/2016/01/cropped-logo-dark-1.png" alt="Surge Simple">
+		</a>
+				</div>
+
+		<nav id="site-navigation" class="main-navigation">
+		<div class="menu-toggle">Menu</div>
+					
+						<ul class="nav single-page-nav">
+									<li class="current"><a href="http://www.surgesimple.com/#main-slider">Home</a></li>
+										<li><a href="http://www.surgesimple.com/#section-4">How It Works</a></li>
+											<li><a href="http://www.surgesimple.com/#section-6">Features</a></li>
+											<li><a href="http://www.surgesimple.com/#section-8">Charge Providers</a></li>
+											<li><a href="http://www.surgesimple.com/#section-12">FAQ</a></li>
+											<li><a href="http://www.surgesimple.com/#section-14">Get The App</a></li>
+								</ul>
+					
+		</nav><!-- #site-navigation -->
+		</div>
+
+
+			<div class="social-icons">
+				<a href="http://facebook.com/surgesimple" class="facebook" data-title="Facebook" target="_blank"><i class="fa fa-facebook"></i><span></span></a>
+		
+				<a href="http://twitter.com/surgesimple" class="twitter" data-title="Twitter" target="_blank"><i class="fa fa-twitter"></i><span></span></a>
+		
+		
+				<a href="http://youtube.com/surgesimple" class="youtube" data-title="Youtube" target="_blank"><i class="fa fa-youtube"></i><span></span></a>
+		
+		
+		
+		
+		
+				
+			</div>
+
+	<script>
+	jQuery(document).ready(function($){
+		$(window).resize(function(){
+			 var socialHeight = $('.social-icons').outerHeight();
+			 $('.social-icons').css('margin-top',-(socialHeight/2));
+		}).resize();
+	});
+	</script>
+	</header><!-- #masthead -->
+
+
+	<div id="content" class="site-content ">
+	<section class="full-screen-yes" id="main-slider">	
+
+
+<div id="video-container">
+  <div id="video-container2">
+    <video autoplay loop poster="http://www.surgesimple.com/wp-content/themes/surgesimple/vids/SurgeSimpleVideo.jpg" id="bgvid">
+      <source src="http://www.surgesimple.com/wp-content/themes/surgesimple/vids/SurgeSimpleVideo.webm" type="video/webm">
+      <source srcf="http://www.surgesimple.com/wp-content/themes/surgesimple/vids/SurgeSimpleVideo.mp4" type="video/mp4">
+      <source src="http://www.surgesimple.com/wp-content/themes/surgesimple/vids/SurgeSimpleVideo.ogv" type="video/ogg">
+    </video>
+  </div>
+</div>
+
+</section>
+    <div id="main-header" class="clearfix">
+
+	<div id="intro-header">
+			<h2 id="subtitle-intro-home">Introducing</h2>
+            
+            <h1 id="title-intro-home">
+            <span>SURGE</span>
+					<div class="rw-words rw-words-1">
+						<span>SIMPLE</span>
+						<span>SOCIAL</span>
+						<span>SCHEDULE</span>
+                        <em>SIMPLE</em>
+					</div>
+			</h1>
+			<p>ELECTRIC VEHICLE CHARGING MADE SIMPLE</p>
+            <a href="#howitworks" id="button-intro">How It Works</a>
+		</div>  </div>
+			<section class="parallax-section clearfix default_template" id="section-4">
+		
+					<div class="mid-content">
+														<h1><span>How It Works</span></h1>
+
+					<div class="parallax-content">
+											<div class="page-content">
+						<div id="intro" class="clearfix">
+<!--
+<div class="full-homepage">--></p>
+<div id="why-container" class="clearfix">
+<h3 id="title-why">How It Works</h3>
+<p id="subtitle-why">&nbsp; </p>
+<ul id="list-why">
+<li class="clearfix"><strong>1</strong> <span>Look for the <i>SurgeSimple</i> sticker on the Electric Vehicle Charging Station</em>.</span></li>
+<li class="clearfix"><strong>2</strong> <span>Once registered, use the <i>SurgeSimple</i> App to  start a charge session.</span></li>
+<li class="clearfix"><strong>3</strong> <span>Done. <em>Simple!</em>  When your session is ending, you will receive a notification a few minutes before your charge session is set to expire.</span></li>
+</ul></div></div>
+						</div>
+										</div> 
+							
+					
+					
+	<div class="content-area">
+
+	</div><!-- #primary -->
+
+
+
+        		
+						</div>
+					</section>
+	
+			<section class="parallax-section clearfix default_template" id="section-6">
+		
+					<div class="mid-content">
+														<h1><span>Features</span></h1>
+
+					<div class="parallax-content">
+											<div class="page-content">
+						<div id="features" class="clearfix">
+<div class="full-width clearfix"></div>
+</div>
+<div class="separator"></div>
+<div class="service-home-container no-margin clearfix">
+<header class="title-home-content">
+<h3>Features&nbsp;&nbsp;&nbsp;</h3>
+<p>We have a number of terrific features: &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  </p>
+</header></div>
+<article class="static-page">
+<div class="about-featured">
+<ul class="list-featured">
+<li>
+                            <img src="http://52.35.141.149/wp-content/uploads/2016/01/hourly.png" alt="hourly" width="96" height="96" class="alignnone size-full wp-image-34 icon-about" /></p>
+<h3>Hourly Sessions</h3>
+<p>Your private parking provider can now fairly manage charging stations by allowing  EV drivers to schedule sessions.</p>
+</li>
+<li>
+                            <img src="http://52.35.141.149/wp-content/uploads/2016/01/realtime.png" alt="realtime" width="96" height="96" class="alignnone size-full wp-image-36 icon-about" /></p>
+<h3>Real-Time Alerts</h3>
+<p>Get a reminder via app, email, or text before your charge session expires.</p>
+</li>
+<li>
+                            <img src="http://52.35.141.149/wp-content/uploads/2016/01/secured.png" alt="secured" width="96" height="96" class="alignnone size-full wp-image-38 icon-about"/></p>
+<h3>Secured Log-In</h3>
+<p>Registration takes just a few seconds.</p>
+</li>
+</ul></div>
+<div class="about-image-featured">
+                    <img src="http://52.35.141.149/wp-content/uploads/2016/01/iphone_login.png" alt="iphone_login" width="500" height="500" class="alignnone size-full wp-image-40" srcset="http://www.surgesimple.com/wp-content/uploads/2016/01/iphone_login-150x150.png 150w, http://www.surgesimple.com/wp-content/uploads/2016/01/iphone_login-300x300.png 300w, http://www.surgesimple.com/wp-content/uploads/2016/01/iphone_login-380x380.png 380w, http://www.surgesimple.com/wp-content/uploads/2016/01/iphone_login.png 500w" sizes="(max-width: 500px) 100vw, 500px" />
+              </div>
+<div class="about-featured right">
+<ul class="list-featured">
+<li>
+                         <img src="http://52.35.141.149/wp-content/uploads/2016/01/icon-service-7.png" alt="icon-service-7" width="96" height="96" class="alignnone size-full wp-image-41 icon-about" /></p>
+<h3>Mobile &amp; Web</h3>
+<p>Conveniently check station availability and schedule charge sessions from your smart phone or our website.</p>
+</li>
+<li>
+                            <img src="http://52.35.141.149/wp-content/uploads/2016/01/map.png" alt="map" width="96" height="96" class="alignnone size-full wp-image-42 icon-about" /></p>
+<h3>Charging Station Map</h3>
+<p>Easily locate public and private charging stations.</p>
+</li>
+<li>
+                            <img src="http://52.35.141.149/wp-content/uploads/2016/01/status.png" alt="status" width="96" height="96" class="alignnone size-full wp-image-43 icon-about" /></p>
+<h3>Charging Status</h3>
+<p>Monitor your charge status remotely.</p>
+</li>
+</ul></div>
+<div class="clear"></div>
+</article>
+<div class="full-homepage screen">
+<div id="portfolio-home-container" class="home-container clearfix">
+<header class="title-home-content">
+<h3>Screen Shots</h3>
+</header>
+<div class="portfolio-home">
+<h4><a href="#">Charging</a></h4>
+<div><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Charging.jpg" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Charging.jpg" alt="WordPress" class="main" /></a><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Charging.jpg" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Charging.jpg" alt="WordPress" class="secondary" /></a></div>
+<p>Check your charge status.</p>
+</div>
+<div class="portfolio-home">
+<h4><a href="#">QR Code <span>Scanner</span></a></h4>
+<div><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_QR-Scan.jpg" alt="WordPress" class="main" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_QR-Scan.jpg" /></a><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_QR-Scan.jpg" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_QR-Scan.jpg" alt="WordPress" class="secondary" /></a></div>
+<p>Start your session manually or via QR Code.</p>
+</div>
+<div class="portfolio-home">
+<h4><a href="#">Charging Station <span>Map</span></a></h4>
+<div><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Map.jpg" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Map.jpg" alt="WordPress" class="main" /></a><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Map.jpg" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Map.jpg" alt="WordPress" class="secondary" /></a></div>
+<p>View detailed station information and locations.</p>
+</div>
+<div class="portfolio-home last">
+<h4><a href="#">Schedule <span>Session</span></a></h4>
+<div><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Form.jpg" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Form.jpg" alt="WordPress" class="main" /></a><a href="#"><img src="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Form.jpg" data-retina="http://52.35.141.149/wp-content/uploads/2016/01/scrn_Schedule-Form.jpg" alt="WordPress" class="secondary" /></a></div>
+<p>Schedule charge sessions with just a few clicks.</p>
+</div></div>
+</div>
+						</div>
+										</div> 
+							
+					
+					
+	<div class="content-area">
+
+	</div><!-- #primary -->
+
+
+
+        		
+						</div>
+					</section>
+	
+			<section class="parallax-section clearfix default_template" id="section-8">
+		
+					<div class="mid-content">
+														<h1><span>Charge Providers</span></h1>
+
+					<div class="parallax-content">
+											<div class="page-content">
+						<p><a name="chargeproviders"></a></p>
+<div class="full-homepage white" id="section-2">
+<div class="full-width clearfix">
+<img src="http://52.35.141.149/wp-content/uploads/2016/01/electric-car.jpg" alt="electric-car" data-retina="images/electric-car.jpg" alt="Design" class="image-service"/></p>
+<article class="static-page">
+<h2 class="title-service">Charge Providers</h2>
+<p><strong>SurgeSimple</strong> can help you manage the use of your Electric Vehicle (EV) charging station network. We understand that often when companies or governmental organizations purchase charging stations for their drivers, they become concerned about managing the chargers and handling driver issues.  Dedicating staff to deal with EV driver problems can be complicated and expensive.  <strong>SurgeSimple</strong> provides a simple way to streamline charging station usage by  optimizing the user experience while lessening your responsibility.</p>
+<p>&nbsp;</p>
+<div class="form light rounded contact_form">
+<h1>Request Information:</h1>
+<ul>
+<li>
+<div>
+				<input type="text" name="Name" placeholder="Full Name" message="Your Full Name is empty." validation="empty" />
+			</div>
+</li>
+<li>
+<div>
+				<input type="text" name="Email address" placeholder="Email Address" message="Your Email address is incorrect." validation="email" />
+			</div>
+</li>
+<li>
+<div>
+				<input type="text" name="Company Name" placeholder="Company Name" message="Your Company Name is empty." validation="empty" />
+			</div>
+</li>
+<li>
+<div>
+				<input type="text" name="Title" placeholder="Title" message="Your Title is empty." validation="empty" />
+			</div>
+</li>
+<li>
+			<span></span><br />
+			<button>Submit</button>
+		</li>
+<p><input type="hidden" name="hidden_receiver" value="support@surgesimple.com"><input type="hidden" name="hidden_subject" value="SurgeSimple - Charge Provider Request"><input type="hidden" name="hidden_duration" value="500"><input type="hidden" name="hidden_thanks_title" value="Thank you!"><input type="hidden" name="hidden_thanks_message" value="You will receive a reply from a SurgeSimple Representative shortly.">
+	</ul>
+</div>
+</article>
+</div>
+</div>
+						</div>
+										</div> 
+							
+					
+					
+	<div class="content-area">
+
+	</div><!-- #primary -->
+
+
+
+        		
+						</div>
+					</section>
+	
+			<section class="parallax-section clearfix default_template" id="section-12">
+		
+					<div class="mid-content">
+														<h1><span>FAQ</span></h1>
+
+					<div class="parallax-content">
+											<div class="page-content">
+						<div id="content" class="clearfix">
+<div id="full-width">
+<article class="static-page">
+<h2 class="title-service">Frequently Asked Questions</h2>
+<blockquote><p>Helping the world embrace the electric vehicle revolution.</p>
+</blockquote>
+<div class="accordion">
+<h3 class="title-faq">How much does SurgeSimple cost?</h3>
+<div class="content-faq">
+<p>The <strong>SurgeSimple</strong> app is totally free for users in Apple iTunes and Google Play Store.  Since we offer customized options and try to keep our pricing as competitive as possible, we ask that businesses contact our sales team for pricing and further information.</p>
+</p></div>
+<h3 class="title-faq">Who is this service for?</h3>
+<div class="content-faq">
+<p><strong>SurgeSimple</strong> is for businesses that are interested in providing charging solutions for their electric vehicle drivers.  Examples include Corporate Offices, Universities, Apartment Complexes, etc.</p>
+</p></div>
+<h3 class="title-faq">Why should businesses get SurgeSimple?</h3>
+<div class="content-faq">
+<p>With <strong>SurgeSimple</strong>, businesses are able to manage the use of their charging stations without dedicating additional staff.  With green solutions like <strong>SurgeSimple</strong>, they are also able to advance their sustainability goals and improve their corporate image.</p>
+</p></div>
+<h3 class="title-faq">Why should Electric Vehicle drivers use SurgeSimple?</h3>
+<div class="content-faq">
+<p>There&#8217;s nothing worse than getting to your destination with very little juice left and realizing that all the charging stations are already taken.  You have no idea how long those cars will be there and no way of knowing when they will leave.  Now, <strong>SurgeSimple</strong> provides easy scheduling and allows open communication amongst EV drivers.</p>
+</p></div>
+<h3 class="title-faq">How can I request SurgeSimple be added to a charging station near me?</h3>
+<div class="content-faq">
+<p>Its Simple!  We love driver suggestions and feedback.  Just email us at <a href="mailto:support@surgesimple.com">support@surgesimple.com</a> and tell us where we&#8217;re needed.  We&#8217;ll take it from there!</p>
+</p></div></div>
+</article></div>
+</div>
+						</div>
+										</div> 
+							
+					
+					
+	<div class="content-area">
+
+	</div><!-- #primary -->
+
+
+
+        		
+						</div>
+					</section>
+	
+			<section class="parallax-section clearfix default_template" id="section-14">
+		
+					<div class="mid-content">
+														<h1><span>Get The App</span></h1>
+
+					<div class="parallax-content">
+											<div class="page-content">
+						<div id="bottom-page">
+<div class="service-home-container no-margin clearfix">
+<header class="title-home-content">
+<h3>Get The App&nbsp;&nbsp;&nbsp;</h3>
+<p>&nbsp;</p>
+<p>Interested? Sign up Today and we&#8217;ll inform you when the <strong>SurgeSimple</strong> App is released!</p>
+</header></div>
+<div class="form light rounded subscribe_form">
+<h1></h1>
+<ul>
+<li>
+<div>
+            <span>&nbsp;</span><br />
+<input type="text" name="Email address" placeholder="Enter your email address" message="Your email address is not valid." validation="email" />
+			</div>
+</li>
+<li>
+<p>			<button>Suscribe</button>
+		</li>
+<p><input type="hidden" name="hidden_receiver" value="support@surgesimple.com"><input type="hidden" name="hidden_subject" value="SurgeSimple - Subscription Request"><input type="hidden" name="hidden_duration" value="500"><input type="hidden" name="hidden_thanks_title" value="Thank you!"><input type="hidden" name="hidden_thanks_message" value="We'll inform you when the SurgeSimple App is released!">
+	</ul>
+</div>
+<p>&nbsp;</p>
+</p></div>
+						</div>
+										</div> 
+							
+					
+					
+	<div class="content-area">
+
+	</div><!-- #primary -->
+
+
+
+        		
+						</div>
+					</section>
+	</div>
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer">
+		<div class="footer-container">
+<div class="main-footer-container">
+        
+       <div id="footer-description">
+                <a href="#">
+                
+                <img id="logo-footer" alt="Missingidea"src="http://www.surgesimple.com/wp-content/themes/surgesimple/images/logo-dark-retina.png" alt="" />
+              
+            </div>
+            <div id="footer-production">
+                <h5>«&nbsp;<a target="_blank" href="http://www.supernova8.com/">a supernova<sup>8</sup> production</a>&nbsp;»</h5>
+              
+            </div> </div></div>
+<div class="footer-container">
+      		<div class="bottom-footer">
+  
+			<div class="mid-content clearfix">
+				<div  class="copy-right">
+					&copy; 2016 Surge Simple  
+				</div><!-- .copy-right -->
+				<div class="site-info">
+					<ul id="nav-footer">
+                    
+                    <li><a href="http://52.35.141.149/">Home</a></li>
+                    
+                  <li><a href="/contact">Contact</a></li>
+                </ul>
+				</div><!-- .site-info -->
+			</div>
+		</div></div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+<div id="go-top"><a href="#page"><i class="fa fa-angle-up"></i></a></div>
+
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/wpdialog.min.js?ver=4.4.1'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/wow.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/SmoothScroll.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/parallax.js?ver=1.1.3'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/jquery.scrollTo.min.js?ver=1.4.14'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/jquery.localScroll.min.js?ver=1.3.5'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/jquery.nav.js?ver=2.2.0'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/jquery.bxslider.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/jquery.easing.min.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/jquery.fitvids.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/jquery.actual.min.js?ver=1.0.16'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/nivo-lightbox.min.js?ver=1.2.0'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-content/themes/surgesimple/js/custom.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.surgesimple.com/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+ <script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/jquery-ui.js" type="text/javascript"></script>
+    <script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/anchor_scroll.js" type="text/javascript"></script>
+    <script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/jquery.retina.js" type="text/javascript"></script>
+<script src="http://www.surgesimple.com/wp-content/themes/surgesimple/script/scripts.js" type="text/javascript"></script>
+</body>
+</html>
